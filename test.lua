@@ -1,3 +1,2 @@
-local component = require("component")
-local gpu = component.gpu
-gpu.bind(component.get("8fca"))
+local inet = require("internet")
+print()inet.request("http://www.stroemer.xyz/time.php"))
